@@ -14,13 +14,15 @@
 ---
 
 <p align="center">
-  📍 Tampa, FL • 🛒 Ecommerce entrepreneur • 🚀 Building tools that respect your wallet
+  📍 Tampa, FL • 🛒 Ecommerce entrepreneur • 🚀 Opening the walls of the closed source realm we call ecommerce
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind">
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
   <img src="https://img.shields.io/badge/Open_Source-✓-informational?style=flat-square" alt="Open Source">
 </p>
@@ -39,10 +41,9 @@ I build tools for ecommerce entrepreneurs who are tired of paying more as they s
 
 | Project | What It Does |
 |---------|--------------|
-| 🦞 **[Axolop CRM](https://github.com/juansbiz/axolopcrm)** | The n8n of ecommerce CRM. Self-host for free, or cloud for $49/mo. No "pay more as you grow" bullshit. |
-| 📬 **Inbox EQ** | 2x your email revenue. SaaS promo tab → inbox. Deliverability that actually pays for itself. |
+| 🦈 **[Axolop CRM](https://github.com/juansbiz/axolopcrm)** | Open-source ecommerce CRM. Self-host for free, or cloud for $49/mo. No per-contact pricing. You own your data. |
+| 📬 **Inbox EQ** | The first ecommerce deliverability suite. DTC brands: promo tab → primary inbox. 2x your email sales. |
 | 🎬 **Yally** | Streaming platform for creators to monetize. Entertainment, reimagined. *(closed source)* |
-| 🏗️ **Community Builder** | Open source community infrastructure. For builders who own their audience. |
 
 ---
 
@@ -56,7 +57,7 @@ I build tools for ecommerce entrepreneurs who are tired of paying more as they s
 **The Solution:**
 Axolop is open-source. Self-host it for free on your infrastructure. Or use our cloud at $49/mo — flat rate, no surprises.
 
-**The n8n Model:**
+**The Open Source Model:**
 - Free self-host = community + distribution
 - Paid cloud = revenue
 - You own your data. Always.
@@ -79,8 +80,8 @@ Axolop is open-source. Self-host it for free on your infrastructure. Or use our 
 ## 🎯 What I'm Working On
 
 - 🚀 **Axolop V5.0 launch** — Open-source ecommerce CRM going live
-- 📬 **Inbox EQ beta** — Email deliverability suite for SaaS
-- 🎬 **Entertainment projects** — Creator-first streaming & community tools
+- 📬 **Inbox EQ beta** — Ecommerce deliverability suite for DTC brands
+- 🎬 **Entertainment projects** — Creator-first streaming platform
 
 ---
 
