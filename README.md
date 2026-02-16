@@ -42,7 +42,7 @@ I build tools for ecommerce entrepreneurs who are tired of paying more as they s
 | Project | What It Does |
 |---------|--------------|
 | 🦈 **[Axolop CRM](https://github.com/juansbiz/axolopcrm)** | Open-source ecommerce CRM. Self-host for free, or cloud for $49/mo. No per-contact pricing. You own your data. |
-| 📬 **Inbox EQ** | The first ecommerce deliverability suite. DTC brands: promo tab → primary inbox. 2x your email sales. |
+| 📬 **Inbox EQ** | The first ecommerce deliverability suite. DTC brands: promo tab → primary inbox. 2x your email sales. *(closed source)* |
 | 🎬 **Yally** | Streaming platform for creators to monetize. Entertainment, reimagined. *(closed source)* |
 
 ---
@@ -57,23 +57,10 @@ I build tools for ecommerce entrepreneurs who are tired of paying more as they s
 **The Solution:**
 Axolop is open-source. Self-host it for free on your infrastructure. Or use our cloud at $49/mo — flat rate, no surprises.
 
-**The Open Source Model:**
-- Free self-host = community + distribution
-- Paid cloud = revenue
-- You own your data. Always.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=juansbiz&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats" width="48%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=juansbiz&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" width="48%">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juansbiz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" width="48%">
-</p>
+**Why Open Source Matters:**
+- Your data lives on your infrastructure, not a vendor's cloud
+- No vendor lock-in, no surprise price hikes, no "your account is being reviewed"
+- The community makes it better faster than any team could alone
 
 ---
 
