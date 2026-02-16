@@ -31,9 +31,9 @@
 
 ## 🛒 What I Build
 
-> **"The first self-hosted CRM that doesn't punish you for growing."**
+> **"The first self-hosted ecommerce CRM."**
 
-I build tools for ecommerce entrepreneurs who are tired of paying more as they scale. My philosophy: ship beats perfect, and your tools should respect both your intelligence and your wallet.
+I build tools for ecommerce entrepreneurs who are tired of paying more as they scale without a direct ROI. My philosophy: ship beats perfect, and your tools should respect both your intelligence and your wallet.
 
 ---
 
