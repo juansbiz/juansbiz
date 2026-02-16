@@ -64,14 +64,6 @@ Axolop is open-source. Self-host it for free on your infrastructure. Or use our 
 
 ---
 
-## 🎯 What I'm Working On
-
-- 🚀 **Axolop V5.0 launch** — Open-source ecommerce CRM going live
-- 📬 **Inbox EQ beta** — Ecommerce deliverability suite for DTC brands
-- 🎬 **Entertainment projects** — Creator-first streaming platform
-
----
-
 ## 🤝 Connect With Me
 
 <p align="center">
