@@ -50,9 +50,10 @@ I build tools for ecommerce entrepreneurs who are tired of paying more as they s
 ## 💡 The Axolop Philosophy
 
 **The Problem:**
-- HubSpot: $1,800+/mo for features you'll never use
-- GoHighLevel: $497/mo built for agencies, not founders
-- Klaviyo: They charge per contact. Forever.
+- Klaviyo: $150-$2,000+/mo and they charge per contact. Forever.
+- Omnisend: $16-$1,000+/mo, same per-contact trap
+- Shopify Email: Limited, and you're locked into their ecosystem
+- Drip: $39-$1,700+/mo — the pricing staircase never ends
 
 **The Solution:**
 Axolop is open-source. Self-host it for free on your infrastructure. Or use our cloud at $49/mo — flat rate, no surprises.
