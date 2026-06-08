@@ -1,98 +1,95 @@
-<h1 align="center">Hi, I'm Juan 👋</h1>
+<h1 align="center">Building the open-source stack ecommerce entrepreneurs actually own</h1>
+
 <p align="center">
-  <a href="https://twitter.com/juansbizz">🐦 Twitter</a> •
-  <a href="https://linkedin.com/in/juansbiz">💼 LinkedIn</a> •
-  <a href="https://github.com/juansbiz">📦 GitHub</a>
+  <a href="https://github.com/juansbiz/roaseq"><img src="https://img.shields.io/github/stars/juansbiz/roaseq?style=for-the-badge&logo=github&color=ffd400" alt="ROASEQ stars"></a>
+  <a href="https://github.com/juansbiz/roaseq/blob/main/LICENSE"><img src="https://img.shields.io/github/license/juansbiz/roaseq?style=for-the-badge&color=blue" alt="ROASEQ license"></a>
+  <a href="https://twitter.com/juansbizz"><img src="https://img.shields.io/badge/Twitter-@juansbizz-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
+  <a href="https://linkedin.com/in/juansbiz"><img src="https://img.shields.io/badge/LinkedIn-juansbiz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/juansbiz">
-    <img src="https://komarev.com/ghpvc/?username=juansbiz&style=flat-square&color=blue" alt="Profile views">
-  </a>
-</p>
-
----
-
-<p align="center">
-  📍 Tampa, FL • 🛒 Ecommerce entrepreneur • 🚀 Opening the walls of the closed source realm we call ecommerce
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind">
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
-  <img src="https://img.shields.io/badge/Open_Source-✓-informational?style=flat-square" alt="Open Source">
+  📍 Tampa, FL &nbsp;•&nbsp; 🛒 Ecommerce infrastructure, the FOSS way
 </p>
 
 ---
 
-## 🛒 What I Build
+## The vision
 
-> **"The first self-hosted ecommerce CRM that doesn't punish you for growing."**
+Emerging ecommerce brands shouldn't have to fall for the marketing of SaaS just to scale. Every year the bills go up — per-contact pricing, per-seat pricing, per-event pricing — and the tool that "got you here" quietly becomes the thing slowing you down. The CRM charges you more as you grow. The email tool punishes volume. The payment processor eats margin.
 
-I build tools for ecommerce entrepreneurs who are tired of paying more as they scale without a direct ROI. My philosophy: ship beats perfect, and your tools should respect both your intelligence and your wallet.
+I'm building the alternative. The whole ecommerce infrastructure layer — CRM, payments, attribution, the boring stuff — as free, open-source software you can run on your own hardware, fork when you need to, and never get locked into.
 
----
+ROASEQ is the first piece. More is coming.
 
-## 🚀 Current Projects
-
-| Project | What It Does |
-|---------|--------------|
-| 🦈 **[Axolop CRM](https://github.com/juansbiz/axolopcrm)** | Open-source ecommerce CRM. Self-host for free, or cloud for $49/mo. No per-contact pricing. You own your data. |
-| 📬 **Inbox EQ** | The first ecommerce deliverability suite. DTC brands: promo tab → primary inbox. 2x your email sales. *(closed source)* |
-| 🎬 **Yally** | Streaming platform for creators to monetize. Entertainment, reimagined. *(closed source)* |
+> **The dream:** an emerging ecommerce brand can stand on free software from day one and never look back.
 
 ---
 
-## 💡 The Axolop Philosophy
+## The FOSS projects
 
-**The Problem:**
-- Klaviyo: $150-$2,000+/mo and they charge per contact. Forever.
-- Omnisend: $16-$1,000+/mo, same per-contact trap
-- Shopify Email: Limited, and you're locked into their ecosystem
-- Drip: $39-$1,700+/mo — the pricing staircase never ends
+### ROASEQ — Open-source ecommerce CRM
+**The showpiece. Public. Live.**
 
-**The Solution:**
-Axolop is open-source. Self-host it for free on your infrastructure. Or use our cloud at $49/mo — flat rate, no surprises.
+The first self-hosted ecommerce CRM that doesn't punish you for growing. No per-contact pricing. No surprise tiers. Self-host for free, or use the cloud. You own your data, your customer list, and your roadmap.
 
-**Why Open Source Matters:**
-- Your data lives on your infrastructure, not a vendor's cloud
-- No vendor lock-in, no surprise price hikes, no "your account is being reviewed"
-- The community makes it better faster than any team could alone
+- Repo: [github.com/juansbiz/roaseq](https://github.com/juansbiz/roaseq)
+- License: AGPL-3.0
+- Stack: TypeScript, React, Node, PostgreSQL, Tailwind
+- Why it matters: every other CRM in ecommerce is a pricing staircase. ROASEQ is a flat floor you can stand on while you scale.
 
----
+### An open-source fintech layer for ecommerce
+**In the works. Private for now. Public soon.**
 
-## 🎯 What I'm Working On
+The next piece of the stack. Same philosophy: emerging brands shouldn't be renting their payment infrastructure from a vendor that takes a cut of every transaction and locks the receipts inside a closed dashboard. The full vision is bigger than what's safe to publish yet — but the commit history is moving, and it will be open source the day it's ready to be used in anger.
 
-- 🦈 **Axolop CRM** — Open-source ecommerce CRM
-- 📬 **Inbox EQ** — Ecommerce deliverability suite for DTC brands
-- 🎬 **Yally** — Creator-first streaming platform
+Watch this profile. When it goes public, you'll see it pinned here.
 
 ---
 
-## 🤝 Connect With Me
+## What I do for the FOSS ecommerce community
+
+- **License aggressively.** AGPL where it matters, permissive where it doesn't. No "source-available" cop-outs.
+- **Public roadmap.** Feature work happens in the open on public issues and PRs.
+- **Accept contributions.** Issues, PRs, and Discord feedback all shape the roadmap. The community is the team.
+- **Document the boring parts.** Self-hosting guides, backup recipes, migration paths off the SaaS tools ROASEQ replaces.
+- **Sponsor the ecosystem.** FOSS ecommerce doesn't exist in a vacuum — libraries, payment SDKs, and the maintainers behind them keep the lights on.
+
+If you run an emerging ecommerce brand, the pitch is simple: **you can run your whole business on FOSS and you can scale on it.** The tools exist. They're getting better. The community is the moat.
+
+---
+
+## Commercial layer (so it's clear I'm not broke)
+
+FOSS is the foundation. The paid layer sits on top of it — same products, more polish, less work for you.
+
+| Product | What it is | Status |
+|---|---|---|
+| **[ROASEQ](https://github.com/juansbiz/roaseq)** | Ecommerce CRM | Open source (AGPL) + optional cloud at flat $49/mo |
+| **INBOXEQ** | Ecommerce deliverability suite — promo tab → primary inbox, 2x email sales | Closed source SaaS, $149–$3,199/mo |
+| **YALLY** | Streaming platform for creators to monetize | Closed source |
+
+The split is deliberate. The infrastructure is FOSS so nobody gets held hostage. The SaaS is the convenient seat.
+
+---
+
+## Current focus
+
+- **ROASEQ** — first $20K MRR, public roadmap, AGPL clean
+- **INBOXEQ** — primary revenue until $100K MRR
+- **The fintech layer** — building in private, opening up when it's safe
+
+---
+
+## Connect
 
 <p align="center">
-  <a href="https://twitter.com/juansbizz">
-    <img src="https://img.shields.io/badge/Twitter-@juansbizz-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-  </a>
-  <a href="https://linkedin.com/in/juansbiz">
-    <img src="https://img.shields.io/badge/LinkedIn-juansbiz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://github.com/juansbiz">
-    <img src="https://img.shields.io/badge/GitHub-juansbiz-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
+  <a href="https://twitter.com/juansbizz"><img src="https://img.shields.io/badge/Twitter-@juansbizz-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
+  &nbsp;
+  <a href="https://linkedin.com/in/juansbiz"><img src="https://img.shields.io/badge/LinkedIn-juansbiz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  &nbsp;
+  <a href="https://github.com/juansbiz"><img src="https://img.shields.io/badge/GitHub-juansbiz-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
----
-
 <p align="center">
-  <i>"Ship beats perfect. Build tools that respect your intelligence and your wallet."</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=100&section=footer" alt="Footer">
+  <sub><i>"Ship beats perfect. Build tools that respect your intelligence and your wallet."</i></sub>
 </p>
