@@ -15,11 +15,11 @@
 
 ## The vision
 
-Emerging ecommerce brands shouldn't have to fall for the marketing of SaaS just to scale. Every year the bills go up — per-contact pricing, per-seat pricing, per-event pricing — and the tool that "got you here" quietly becomes the thing slowing you down. The CRM charges you more as you grow. The email tool punishes volume. The payment processor eats margin.
+Emerging ecommerce brands shouldn't have to fall for the marketing of SaaS just to scale. Every year the bills go up — per-contact pricing, per-seat pricing, per-event pricing, **a percentage of your ad spend** — and the tool that "got you here" quietly becomes the thing slowing you down. The CRM charges you more as you grow. The email tool punishes volume. The payment processor eats margin. The attribution vendor holds your events hostage.
 
-I'm building the alternative. The whole ecommerce infrastructure layer — CRM, payments, attribution, the boring stuff — as free, open-source software you can run on your own hardware, fork when you need to, and never get locked into.
+I'm building the alternative. The whole ecommerce infrastructure layer — CRM, marketing automation, attribution, payments, the boring stuff — as free, open-source software you can run on your own hardware, fork when you need to, and never get locked into.
 
-ROASEQ is the first piece. More is coming.
+ROASEQ is the first piece. The roadmap is the attribution layer, which is the actual Triple Whale replacement. More is coming.
 
 > **The dream:** an emerging ecommerce brand can stand on free software from day one and never look back.
 
@@ -27,15 +27,18 @@ ROASEQ is the first piece. More is coming.
 
 ## The FOSS projects
 
-### ROASEQ — Open-source ecommerce CRM
+### ROASEQ — Open-source ecommerce attribution (FOSS Triple Whale alternative)
 **The showpiece. Public. Live.**
 
-The first self-hosted ecommerce CRM that doesn't punish you for growing. No per-contact pricing. No surprise tiers. Self-host for free, or use the cloud. You own your data, your customer list, and your roadmap.
+The destination is **attribution**: multi-touch, channel-level ROI, customer-journey stitching, ad-spend ROI, custom model runner — the answers that closed-source attribution SaaS charges a percentage of your ad spend to give you back. Every event in your own Postgres. Export anytime. Run any model you want.
 
-- Repo: [github.com/juansbiz/roaseq](https://github.com/juansbiz/roaseq)
+The repo you see today is the **v1 CRM** — the foundation the attribution layer is built on. Contacts, deals, pipelines, email, multi-tenant. It is the boring substrate every ecommerce brand needs from day one and the event store the attribution models will read from.
+
+- Repo: [github.com/juansbiz/roaseq](https://github.com/juansbiz/roaseq) (mirror of `git.antieq.com/juansbiz/roaseq`, the canonical source)
 - License: AGPL-3.0
 - Stack: TypeScript, React, Node, PostgreSQL, Tailwind
-- Why it matters: every other CRM in ecommerce is a pricing staircase. ROASEQ is a flat floor you can stand on while you scale.
+- Roadmap: **v1 CRM** (shipped) → **v2 marketing/event layer** → **v3 attribution** (the Triple Whale replacement)
+- Why it matters: every other attribution vendor holds your events behind a percentage-of-ad-spend paywall. ROASEQ is the events in your database, free, open, auditable.
 
 ### An open-source fintech layer for ecommerce
 **In the works. Private for now. Public soon.**
@@ -49,7 +52,7 @@ Watch this profile. When it goes public, you'll see it pinned here.
 ## What I do for the FOSS ecommerce community
 
 - **License aggressively.** AGPL where it matters, permissive where it doesn't. No "source-available" cop-outs.
-- **Public roadmap.** Feature work happens in the open on public issues and PRs.
+- **Public roadmap.** Feature work happens in the open on public issues and PRs. The v1/v2/v3 plan for ROASEQ is on the README.
 - **Accept contributions.** Issues, PRs, and Discord feedback all shape the roadmap. The community is the team.
 - **Document the boring parts.** Self-hosting guides, backup recipes, migration paths off the SaaS tools ROASEQ replaces.
 - **Sponsor the ecosystem.** FOSS ecommerce doesn't exist in a vacuum — libraries, payment SDKs, and the maintainers behind them keep the lights on.
@@ -64,7 +67,7 @@ FOSS is the foundation. The paid layer sits on top of it — same products, more
 
 | Product | What it is | Status |
 |---|---|---|
-| **[ROASEQ](https://github.com/juansbiz/roaseq)** | Ecommerce CRM | Open source (AGPL) + optional cloud at flat $49/mo |
+| **[ROASEQ](https://github.com/juansbiz/roaseq)** | Open-source ecommerce attribution (CRM as v1) | Open source (AGPL) + optional cloud, flat pricing, never a percentage of ad spend |
 | **INBOXEQ** | Ecommerce deliverability suite — promo tab → primary inbox, 2x email sales | Closed source SaaS, $149–$3,199/mo |
 | **YALLY** | Streaming platform for creators to monetize | Closed source |
 
@@ -74,8 +77,8 @@ The split is deliberate. The infrastructure is FOSS so nobody gets held hostage.
 
 ## Current focus
 
-- **ROASEQ** — first $20K MRR, public roadmap, AGPL clean
-- **INBOXEQ** — primary revenue until $100K MRR
+- **INBOXEQ** — first $20K MRR, primary revenue until $100K MRR
+- **ROASEQ** — public, attribution-first repositioning, code in maintenance mode until INBOXEQ scales
 - **The fintech layer** — building in private, opening up when it's safe
 
 ---
