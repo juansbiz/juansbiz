@@ -20,20 +20,20 @@ Building the whole ecommerce infrastructure layer as FOSS you can run on your ow
 
 ## What I ship
 
-**🐳 [ROASEQ](https://github.com/juansbiz/roaseq)** is the FOSS alternative to Triple Whale. Open-source ecommerce attribution. Multi-touch models, channel ROI, journey stitching, all in your own Postgres. The codebase today is a CRM, the v1 foundation. v2 is the marketing layer. v3 is attribution. You own the events, forever. AGPL-3.0.
+**🐳 [ROASEQ](https://github.com/juansbiz/roaseq)** is the FOSS alternative to Triple Whale. Open-source ecommerce attribution. Multi-touch models, channel ROI, journey stitching, all in your own Postgres. You own the events, forever. AGPL-3.0.
 
 **💸 An open-source fintech layer for ecommerce** is in private dev. Same philosophy: emerging brands shouldn't be renting their payment infrastructure from a vendor that takes a cut of every transaction. Public when it's ready.
 
 ## The FOSS pledge
 
 - 🧠 **AGPL where it matters.** No source-available cop-outs.
-- 📋 **Public roadmap.** v1/v2/v3 on the README. PRs shape what ships.
+- 📋 **Public roadmap.** Features on the issue tracker. PRs shape what ships.
 - 📖 **Document the boring parts.** Self-hosting, backups, migration off the SaaS.
 - 🤝 **Accept contributions.** Issues, PRs, Discord. The community is the team.
 
 ## What I'm building next
 
-The roadmap is the full ecommerce infrastructure layer. CRM and attribution are the first two. Marketing automation, payments, and the rest of the boring stuff come after, all under the same FOSS pledge. Watch this profile.
+The roadmap is the full ecommerce infrastructure layer. Attribution and marketing automation are the first two. Payments, the rest of the boring stuff, all under the same FOSS pledge. Watch this profile.
 
 ---
 
