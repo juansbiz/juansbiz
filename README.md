@@ -2,7 +2,7 @@
 
 # 🛒 Building the open-source stack ecommerce entrepreneurs actually own
 
-The CRM, the marketing tools, the attribution, the payments. Free. Self-hosted. Yours.
+The marketing tools, the attribution, the payments. Free. Self-hosted. Yours.
 
 [⭐ ROASEQ](https://github.com/juansbiz/roaseq) &nbsp;·&nbsp; [🐦 Twitter](https://twitter.com/juansbizz) &nbsp;·&nbsp; [💼 LinkedIn](https://linkedin.com/in/juansbiz) &nbsp;·&nbsp; [📦 GitHub](https://github.com/juansbiz)
 
