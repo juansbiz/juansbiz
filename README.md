@@ -1,40 +1,89 @@
 <div align="center">
 
-# 🛒 Building the open-source stack ecommerce entrepreneurs actually own
+# 🐳 ROASEQ
 
-The marketing tools, the attribution, the payments. Free. Self-hosted. Yours.
+**The open-source attribution platform for ecommerce.**
+**Your events. Your models. Your database.**
 
-[⭐ ROASEQ](https://github.com/juansbiz/roaseq) &nbsp;·&nbsp; [🐦 Twitter](https://twitter.com/juansbizz) &nbsp;·&nbsp; [💼 LinkedIn](https://linkedin.com/in/juansbiz) &nbsp;·&nbsp; [📦 GitHub](https://github.com/juansbiz)
+[⭐ Star on GitHub](https://github.com/juansbiz/roaseq) &nbsp;·&nbsp; [📖 Docs](https://github.com/juansbiz/roaseq#quick-start) &nbsp;·&nbsp; [🐛 Open an issue](https://github.com/juansbiz/roaseq/issues) &nbsp;·&nbsp; [🐦 @juansbizz](https://twitter.com/juansbizz)
 
 </div>
 
-## The problem
+---
 
-Every year the bills go up. Per contact. Per seat. Per event. **A percentage of your ad spend.** The tool that "got you here" quietly becomes the thing slowing you down.
+## The pitch
 
-## What I'm doing about it
+**ROASEQ is the FOSS alternative to Triple Whale.**
 
-Building the whole ecommerce infrastructure layer as FOSS you can run on your own hardware, fork when you need to, and never get locked into. ROASEQ is the first piece. More is coming.
-
-> The dream: an emerging brand stands on free software from day one and never looks back.
-
-## What I ship
-
-**🐳 [ROASEQ](https://github.com/juansbiz/roaseq)** is the FOSS alternative to Triple Whale. Open-source ecommerce attribution. Multi-touch models, channel ROI, journey stitching, all in your own Postgres. You own the events, forever. AGPL-3.0.
-
-**💸 An open-source fintech layer for ecommerce** is in private dev. Same philosophy: emerging brands shouldn't be renting their payment infrastructure from a vendor that takes a cut of every transaction. Public when it's ready.
-
-## The FOSS pledge
-
-- 🧠 **AGPL where it matters.** No source-available cop-outs.
-- 📋 **Public roadmap.** Features on the issue tracker. PRs shape what ships.
-- 📖 **Document the boring parts.** Self-hosting, backups, migration off the SaaS.
-- 🤝 **Accept contributions.** Issues, PRs, Discord. The community is the team.
-
-## What I'm building next
-
-The roadmap is the full ecommerce infrastructure layer. Attribution and marketing automation are the first two. Payments, the rest of the boring stuff, all under the same FOSS pledge. Watch this profile.
+Multi-touch attribution. Channel ROI. Journey stitching. Every ad click, every checkout, every email open, every repeat purchase: a row in your own Postgres. Free. Self-hostable. Yours forever.
 
 ---
 
-<sub>📍 Tampa, FL · Ship beats perfect · Build tools that respect your intelligence and your wallet.</sub>
+## The problem
+
+Triple Whale, Northbeam, Polar, Rockerbox, Wicked Reports. They all do the same thing. They hold your attribution data in their warehouse, charge you a flat fee (or worse) to see it, and lock you into a 12-month contract.
+
+A 2025 audit by Wicked Reports and Tier 11 across 2,000+ brands found third-party attribution tools misreport up to 30% of revenue. Bottom-funnel channels get over-credited. Prospecting looks broken even when it's working. Brands scale the wrong campaigns and kill the ones actually creating customers.
+
+None of them are open source. None of them self-host. None of them put the events in your database where you can run your own models.
+
+ROASEQ does.
+
+---
+
+## What you get
+
+🧠 **Multi-touch attribution.** First-touch, last-touch, linear, time-decay, position-based, data-driven. Pick the model that fits your business, or build your own.
+
+💵 **No percentage of ad spend. No annual contract.** Free, self-hosted. Or flat-rate cloud. Forever.
+
+🔓 **The events are yours.** Every ad click, every checkout, every email open, every repeat purchase: a row in your own Postgres. Export anytime. Run any model you want.
+
+---
+
+## What you replace
+
+| Closed source | What it charges | ROASEQ |
+|---|---|---|
+| **Triple Whale** | $179 to $749/mo, enterprise custom, 12-month lock-in | Free self-host, or flat cloud |
+| **Northbeam** | $1,500/mo starter, custom above that, demo-gated | Free self-host, or flat cloud |
+| **Polar Analytics** | Quote-based, "Core" bundle discount, your own Snowflake (but theirs) | Free self-host, YOUR Postgres |
+| **Rockerbox** | No public pricing, $250K+ media spend to qualify | Free self-host, no qualification |
+| **Wicked Reports** | $499 to $999/mo, $4,999/mo enterprise | Free self-host, or flat cloud |
+
+The same answers to "which ad is profitable" and "where did this customer come from," in your own database, without the vendor markup.
+
+---
+
+## Quick start
+
+Self-host with Docker:
+
+```bash
+git clone https://github.com/juansbiz/roaseq.git
+cd roaseq
+cd docker && docker compose up
+```
+
+Or run the dev stack:
+
+```bash
+git clone https://github.com/juansbiz/roaseq.git
+cd roaseq
+npm install
+npm run dev
+```
+
+That's it. Open the dashboard, connect your store, connect your ad accounts, and the events start flowing.
+
+---
+
+## Why FOSS
+
+Because attribution data should not be a hostage. Because "where's my money going" is the most important question in ecommerce, and you should not have to pay rent to ask it. Because closed-source SaaS had its time.
+
+We are building the open-source ecommerce infrastructure layer. Attribution is the first piece.
+
+---
+
+<sub>Your events. Your models. Your database. Open source, forever.</sub>
