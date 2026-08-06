@@ -1,76 +1,49 @@
-<div align="center">
+# Hey, I'm Juan.
 
-# 🐳 Hey, I'm Juan.
+Founder of [ROASEQ](https://git.antieq.com/hificopy/roaseq) and builder of open ecommerce infrastructure.
 
-I got tired of paying rent to see my own attribution data.
-So I'm open-sourcing the whole ecommerce stack, one piece at a time.
-**ROASEQ is the first.**
+I am working toward a simple mission: make ecommerce software more open, self-hostable, inspectable, and owned by the brands using it.
 
-[🐦 X](https://twitter.com/juansbizz) &nbsp;·&nbsp; [💼 LinkedIn](https://linkedin.com/in/juansbiz) &nbsp;·&nbsp; [🐸 Codeberg](https://codeberg.org/juansbiz)
+## Canonical source
 
-</div>
+My projects are developed and maintained on Forgejo:
 
----
+**[git.antieq.com](https://git.antieq.com)**
 
-## The mission
+GitHub is a public mirror and portfolio for my work. For projects I maintain, please open issues and pull requests on Forgejo. I use GitHub directly when contributing to other projects whose canonical home is GitHub.
 
-Emerging ecommerce brands shouldn't have to fall for the marketing of SaaS just to scale. The marketing tools charge you more as you grow. The email vendor punishes volume. The attribution platform holds your events hostage. I'm building the open-source alternative, piece by piece, so the boring infrastructure is free, self-hostable, and owned by the brand.
+## Projects
 
-Attribution is the first piece because it's the question every founder cares about most: **where's my money going?**
+### For ecommerce brands
 
----
+Ecommerce projects are maintained by **[HIFICOPY](https://git.antieq.com/hificopy)**.
 
-## Why I'm doing this
+- **[ROASEQ](https://git.antieq.com/hificopy/roaseq)** — open-source attribution infrastructure for ecommerce operators who want to own and audit their data.
+- **[ROASEQ FOSS Framework](https://git.antieq.com/hificopy/roaseq-foss-framework)** — an MIT-licensed SDK for attribution plugins that emit C-TRACK events into ROASEQ.
 
-I run ecommerce brands. I paid Klaviyo, Triple Whale, HubSpot. I watched the bills climb as I scaled. I switched to FOSS where I could. I shipped ROASEQ where I couldn't. This is the rest of that work.
+### For developers
 
----
+- **Open-source contributions** — fixes, documentation, tests, and tooling contributed to the projects I use.
+- **Developer tooling** — local-first tools for making agent-assisted software work reviewable and reproducible. New projects will be listed here once they are usable.
 
-## ROASEQ: the first ship
+### Environment and workflow
 
-🐳 **[ROASEQ](https://github.com/juansbiz/roaseq)** is the FOSS alternative to Triple Whale.
+- **Dotfiles** — a sanitized, portable reference for my development environment. Private hosts, credentials, and machine-specific values are excluded from public releases.
+- **Neovim and Pi workflows** — editor configuration, reusable skills, and integrations for transparent agentic development.
 
-Multi-touch attribution. Channel ROI. Journey stitching. Every ad click, every checkout, every email open, every repeat purchase: a row in your own Postgres. Free. Self-hostable. Yours forever.
+## How I work
 
-### The problem
+I use agents during development, but I do not outsource responsibility. I read the diff, review the evidence, run the relevant checks, and take responsibility for what gets merged.
 
-Triple Whale, Hyros, Northbeam, Polar, Rockerbox, Wicked Reports. They all do the same thing. They hold your attribution data in their warehouse, charge you a flat fee (or worse) to see it, and lock you into a 12-month contract.
+## Contributing
 
-A 2025 audit by Wicked Reports and Tier 11 across 2,000+ brands found third-party attribution tools misreport up to 30% of revenue. Bottom-funnel channels get over-credited. Prospecting looks broken even when it's working. Brands scale the wrong campaigns and kill the ones actually creating customers.
+Read the **[contribution policy](CONTRIBUTING.md)** before opening an issue or pull request.
 
-None of them are open source. None of them self-host. None of them put the events in your database where you can run your own models.
+- Browse and clone public projects without an account.
+- Create a Forgejo account to open issues, fork a project, or submit a pull request.
+- Contribute to my projects on Forgejo, not their GitHub mirrors.
+- Report security vulnerabilities privately using the instructions in each repository's `SECURITY.md`.
 
-ROASEQ does.
+## Links
 
-### What you get
-
-🧠 **Multi-touch attribution.** First-touch, last-touch, linear, time-decay, position-based, data-driven. Pick the model that fits your business, or build your own.
-
-💵 **No percentage of ad spend. No annual contract.** Free, self-hosted. Or flat-rate cloud. Forever.
-
-🔓 **The events are yours.** Every ad click, every checkout, every email open, every repeat purchase: a row in your own Postgres. Export anytime. Run any model you want.
-
-### What you replace
-
-| Closed source | What it charges | ROASEQ |
-|---|---|---|
-| **Triple Whale** | $179 to $749/mo, enterprise custom, 12-month lock-in | Free self-host, or flat cloud |
-| **Hyros** | $230/mo starter, demo-gated, 1-to-1 dedicated analyst, premium tier for info-product and high-ticket brands | Free self-host, no qualification, no analyst upsell |
-| **Northbeam** | $1,500/mo starter, custom above that, demo-gated | Free self-host, or flat cloud |
-| **Polar Analytics** | Quote-based, "Core" bundle discount, your own Snowflake (but theirs) | Free self-host, YOUR Postgres |
-| **Rockerbox** | No public pricing, $250K+ media spend to qualify | Free self-host, no qualification |
-| **Wicked Reports** | $499 to $999/mo, $4,999/mo enterprise | Free self-host, or flat cloud |
-
-The same answers to "which ad is profitable" and "where did this customer come from," in your own database, without the vendor markup.
-
----
-
-## What's next
-
-ROASEQ is the first ship. The fintech layer (open-source payment processing for ecommerce) is in private dev. Marketing automation, the rest of the boring stuff, all under the same FOSS pledge. Watch this profile, or star ROASEQ to follow along.
-
-[⭐ Star ROASEQ on GitHub](https://github.com/juansbiz/roaseq) &nbsp;·&nbsp; [🐸 Mirror on Codeberg](https://codeberg.org/juansbiz) &nbsp;·&nbsp; [🐛 Open an issue](https://github.com/juansbiz/roaseq/issues) &nbsp;·&nbsp; [🐦 @juansbizz](https://twitter.com/juansbizz)
-
----
-
-<sub>Your events. Your models. Your database. Open source, forever.</sub>
+[Forgejo](https://git.antieq.com/juansbiz) · [HIFICOPY](https://git.antieq.com/hificopy) · [ROASEQ](https://git.antieq.com/hificopy/roaseq) · [LinkedIn](https://linkedin.com/in/juansbiz) · [X](https://x.com/juansbiz)
